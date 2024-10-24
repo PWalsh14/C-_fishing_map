@@ -1,0 +1,28 @@
+#version: '3.8'
+
+#services:
+  #main_application:
+  # PLACEHOLDER COMMENTS FOR WHEN PROJECT IS COMPLETE
+    #build:
+     # context: .
+      #dockerfile: Dockerfile
+      #image: placeholder-image:latest
+    #ports:
+    #  - "8080:80"
+    #depends_on:
+     # - mysql
+    #networks:
+     # - application_network
+
+#  mysql:
+    #image: mysql:latest
+    #environment:
+      ##MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+     # MYSQL_DATABASE: big_fishues_database
+    #volumes:
+    #  - ./dbschema.sql:/docker-entrypoint-initdb.d/dbschema.sql
+   # networks:
+  #    - application_network
+
+#networks:
+ # application_network:
